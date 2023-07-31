@@ -1,0 +1,37 @@
+ body{
+    background-color: #b6d7a8;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #6b9456;
+    color: #f2f2f2;
+  }
+
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+
